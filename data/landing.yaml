@@ -1,0 +1,65 @@
+# Note: Template blocks require a 'weight' parameter so they're correctly ordered on the landing page
+
+# Hero
+hero:
+  enable: true
+  weight: 10
+  template: hero
+
+  backgroundImage:
+    path: "images/templates/hero"
+    filename:
+      desktop: "gradient-desktop.webp"
+      mobile: "gradient-mobile.webp"
+
+  badge:
+    text: Beta
+    color: success # primary, secondary, success, danger, warning, info, light, dark
+    pill: false # boolean
+    soft: true # boolean
+
+  # titleLogo:
+  #   path: "images/logos"
+  #   filename: "title_logo.png"
+  #   alt: "Lotus Docs Logo"
+  #   height: 80px
+
+  title: "eBPF Tech"
+  subtitle: A security-centric approach to eBPF development with an emphasis on learning and innovation.
+  image:
+    path: "images" # path to image under configured assets directory. default 'images'
+    filename: "bee_background.png" # filename of your hero image (including file extension)
+    alt: "Lotus Docs Screenshot" # Optional but recommended
+    boxShadow: false # default 'false' (excludes .svg images)
+    rounded: true # round the image corners? default 'false' (excludes .svg images)
+
+  ctaButton:
+    icon: rocket_launch
+    btnText: "Get Started"
+    url: "/docs/quickstart/#create-a-new-lotus-docs-site"
+  cta2Button:
+    icon: construction
+    btnText: "GitHub"
+    url: "https://github.com/ebpf-tech/"
+
+# Feature Grid
+featureGrid:
+  enable: true
+  weight: 20
+  template: feature grid
+
+  title:
+  subtitle: Lotus Docs is a highly configurable Hugo documentation theme. Yet, with the default configuration you can deploy and publish your documentation site in a matter of minutes. Check out some core features below.
+
+  items:
+    - title: Fast
+      icon: speed
+      description: 4 x 100's score on Google Lighthouse by default. Lotus Docs removes unused CSS, prefetches asset links, and lazy loads content images.
+
+    - title: SEO Friendly
+      icon: trending_up
+      description: Data is automatically structured to be SEO friendly. Includes Meta tags, Opengraph, and Twitter cards. Choose the settings that best suit you.
+
+    - title: Secure by default
+      icon: lock
+      description: Lotus Docs' default configuration scores A+ on Mozilla Observatory. You can update the default Security Headers to suit your requirements.
