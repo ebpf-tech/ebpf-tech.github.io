@@ -53,20 +53,20 @@ defaultContentLanguage = 'en'
   mono_font       = "Fira Code" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: Lotus Labs. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
-        # version = true # includes git commit info
-
+        copyright = "© :YEAR: Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        version = true # includes git commit info
     [params.social]
-        github = ""        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
-        twitter = ""       # YOUR_TWITTER_ID
-        # instagram = "colinwilson"     # YOUR_INSTAGRAM_ID
-        # rss = true                    # show rss icon with link
+        github = "ebpf-tech"        # YOUR_GITHUB_ID or YOUR_GITHUB_URL
+#        twitter = ""       # YOUR_TWITTER_ID
+        # instagram = ""     # YOUR_INSTAGRAM_ID
+        rss = true                    # show rss icon with link
+
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Lotus Docs Example Site"           # default html title for documentation pages/sections
+        title           = "eBPF Tech"           # default html title for documentation pages/sections
 
-        # pathName        = "docs"                            # path name for documentation site | default "docs"
+        pathName        = "docs"                            # path name for documentation site | default "docs"
 
-        # themeColor      = "cyan"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
+        themeColor      = "cyan"                            # (optional) - Set theme accent colour. Options include: blue (default), green, red, yellow, emerald, cardinal, magenta, cyan
 
         darkMode        = true                                # enable dark mode option? default false
 
@@ -75,8 +75,8 @@ defaultContentLanguage = 'en'
         prismTheme      = "solarized-light"                           # (optional) - Set theme for PrismJS. Options include: lotusdocs (default), solarized-light, twilight, lucario
 
         # gitinfo
-        repoURL         = "https://github.com/colinwilson/lotusdocs.dev"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
-        repoBranch      = "release"
+        repoURL         = "https://github.com/ebpf-tech/ebpf-tech.github.io"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+        repoBranch      = "main"
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false
         lastModRelative = true                                # format 'Last modified' time as relative - default true
@@ -131,14 +131,14 @@ defaultContentLanguage = 'en'
     identifier = "docs"
     weight = 10
 
-[[menu.primary]]
-   name  = "Showcase"
-   url = "/showcase"
-   identifier = "showcase"
-   weight = 20
-
-[[menu.primary]]
-   name  = "Community"
-   url = "https://github.com/colinwilson/lotusdocs/discussions"
-   identifier = "community"
-   weight = 30
+#[[menu.primary]]
+#   name  = "Showcase"
+#   url = "/showcase"
+#   identifier = "showcase"
+#   weight = 20
+##
+#[[menu.primary]]
+#   name  = "Community"
+#   url = "https://github.com/ebpf-tech/"
+#   identifier = "community"
+#   weight = 30
