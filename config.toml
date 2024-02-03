@@ -126,16 +126,16 @@ defaultContentLanguage = 'en'
 
 [menu]
 [[menu.primary]]
-    name  = "Docs"
+    name  = "eBPF Docs"
     url = "docs/"
     identifier = "docs"
     weight = 10
 
-#[[menu.primary]]
-#   name  = "Showcase"
-#   url = "/showcase"
-#   identifier = "showcase"
-#   weight = 20
+[[menu.primary]]
+   name  = "Products"
+   url = "/#"
+   identifier = "products"
+   weight = 20
 ##
 #[[menu.primary]]
 #   name  = "Community"

@@ -18,14 +18,14 @@ hero:
     pill: false # boolean
     soft: true # boolean
 
-  # titleLogo:
-  #   path: "images/logos"
-  #   filename: "title_logo.png"
-  #   alt: "Lotus Docs Logo"
-  #   height: 80px
+  titleLogo:
+    path: "images/logos"
+    filename: "logo.png"
+    alt: "Lotus Docs Logo"
+    height: 80px
 
   title: "eBPF Tech"
-  subtitle: A security-centric approach to eBPF development with an emphasis on learning and innovation.
+  subtitle: Developing practical eBPF skills with a strong focus on security applications and hands-on learning.
   image:
     path: "images" # path to image under configured assets directory. default 'images'
     filename: "bee_background.png" # filename of your hero image (including file extension)
@@ -33,10 +33,6 @@ hero:
     boxShadow: false # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-#  ctaButton:
-#    icon: rocket_launch
-#    btnText: "Get Started"
-#    url: "https://ebpf.tech/docs/quick-start/"
   cta2Button:
     icon: rocket_launch
     btnText: "Get Started"
@@ -48,29 +44,29 @@ featureGrid:
   weight: 20
   template: feature grid
 
-  title: Why eBPF Tech?
-  subtitle: We recognize the importance of eBPF technology and are committed to promoting its development through a strategic focus on key areas. We invite you to join us in our efforts to make a positive impact on the future of this innovative field.
+#  title: Why eBPF Tech?
+#  subtitle: We're dedicated to advancing eBPF technology with a strong focus on security.
   items:
     - title: Security
       icon: lock
-      description: Enhancing eBPF security features ensures robust protection against threats, safeguarding critical systems and data, while also facilitating the development of robust security tools leveraging eBPF capabilities.
+      description: Strengthening eBPF security safeguards critical systems and data while enabling powerful security tools.
 
     - title: Networking
       icon: hub
-      description: Improving networking capabilities empowers eBPF to efficiently manage and optimize network traffic, enabling scalable and resilient network infrastructures, and offering a foundation for constructing sophisticated network tools using eBPF.
+      description: Improving eBPF networking powers efficient traffic management and advanced network tool development.
 
     - title: Debugging and Tooling
       icon: construction
-      description: Developing robust debugging tools enhances developers' ability to troubleshoot and optimize eBPF programs, streamlining the development process and creating effective debugging and analysis tools utilizing eBPF.
+      description: Developing robust debugging tools streamlines eBPF program optimization, fostering effective analysis with eBPF.
 
-    - title:  Performance
+    - title: Performance
       icon: speed
-      description: Continuously optimizing eBPF performance ensures efficient data processing, enabling high-speed packet filtering and forwarding with minimal overhead and facilitating the development of performance monitoring and analysis tools leveraging eBPF.
+      description: Continuous eBPF optimization enables efficient data processing and monitoring tool development.
 
     - title: New Features
       icon: new_releases
-      description: Implementing innovative features expands eBPF's capabilities, enabling novel applications and use cases across various domains and providing opportunities to build advanced tools and frameworks utilizing these new features.
+      description: Implementing innovative eBPF features enables new applications and advanced tool development.
 
     - title: Integrations
       icon: integration_instructions
-      description: Seamless integration with existing systems and frameworks ensures interoperability. It facilitates the adoption of eBPF in diverse environments while also enabling the development of integrations and extensions, leveraging eBPF's flexibility and versatility.
+      description: Seamless integration ensures eBPF's adaptability and fosters flexible extensions.
