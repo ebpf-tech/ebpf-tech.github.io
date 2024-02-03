@@ -3,7 +3,7 @@ languageCode = "en-GB"
 contentDir = "content"
 enableEmoji = true
 enableGitInfo = true # N.B. .GitInfo does not currently function with git submodule content directories
-
+title = "eBPF Tech"
 defaultContentLanguage = 'en'
 #[languages]
 #  [languages.en]
